@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+.content {
+    max-width: 800px;
+}
+
+.items_menu {
+  background-color: #50206C; 
+  color: white;
+}
+
+.btn_submenu {
+  background-color: #74508E; 
+  color: white;
+}
+  .btn_submenu:hover {
+    background-color: #3D1952; 
+    color: white;
+  }
+
+
+.playersturn {
+  width: 40px;
+}
+
+.player{
+  width: 85px;
+}
+
+#main_container {
+  background-color: #3D1952;
+  border: 8px solid #3D1952;
+  border-radius: 30px;
+}
+
+#menu {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+#submenu {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.game {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #74508E;
+    color: #fff;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr)
+  }
+  
+  .game > div {
+    border: 6px solid white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .game > div:hover {
+    background-color: #50206C;
+  }
+
+#X {
+  text-shadow: 4px 4px #AC141E;
+  font-size: 90px;
+  font-family: "Acme";
+}
+
+#O {
+  text-shadow: 4px 4px #04497B;
+  font-size: 90px;
+  font-family: "Acme";
+}
+
+.tuplewinner {
+  background-color: #25093D;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.7);
+}
+
+#modal_content {
+  background-color: #fefefe;
+  margin: auto;
+  text-align: center;
+  border-radius: 6px;
+  max-width: 400px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+#modal_menu {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 20px 20px 0px 20px;
+  height: 107px;
+  background-color: #25093D;
+}
+
+#modal_content_text {
+  padding: 20px;
+}
+
+#text_modal {
+  font-size: 20px;
+  color: #3D4F5E;
+  font-weight: 700;
+}
+
+#btn_ok {
+  margin-top: 10px;
+}
+
+.close {
+  color: rgba(255,255,255,0.6);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
